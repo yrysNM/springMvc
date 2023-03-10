@@ -18,9 +18,7 @@ mvn package -f "path"
 mvn compile -f "path"
 ```
 
-## Development
-
-Want to contribute? Great!
+## pom.xml
 
 First Tab:
 
