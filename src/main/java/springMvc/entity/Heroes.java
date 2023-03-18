@@ -11,6 +11,10 @@ public class Heroes {
         this.rang = rang;
     }
 
+    public Heroes() {
+
+    }
+
     public int getId() {
         return id;
     }
@@ -21,6 +25,18 @@ public class Heroes {
 
     public String getRang() {
         return rang;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setRang(String rang) {
+        this.rang = rang;
     }
 
 }
