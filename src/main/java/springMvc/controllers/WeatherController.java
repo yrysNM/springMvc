@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 // import springMvc.entity.Wheather;
 
 @RestController
-public class WheatherController {
+public class WeatherController {
   private String baseUrl = "https://api.openweathermap.org";
   private String API_KEY = "1b386436debb80340ab45dca79516e21";
 

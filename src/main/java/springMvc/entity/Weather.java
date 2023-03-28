@@ -1,17 +1,17 @@
 package springMvc.entity;
 
-public class Wheather {
+public class Weather {
   private String lat;
   private String lon;
   private String exclude;
 
-  public Wheather(String lat, String lon, String exclude) {
+  public Weather(String lat, String lon, String exclude) {
     this.lat = lat;
     this.lon = lon;
     this.exclude = exclude;
   }
 
-  public Wheather() {
+  public Weather() {
   }
 
   public String getLat() {
